@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.administrator.freda_app.MainActivity">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:background="#ffffff"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal"
+                android:layout_weight="1.39"
+                android:background="#ffffff">
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/homenew"
+                    android:layout_marginTop="6dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@android:color/transparent"
+                    android:id="@+id/action_bar_back"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+                    />
+            </LinearLayout>
+
+                <LinearLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".29"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/header_3x"
+                        android:layout_gravity="center_vertical"
+                        android:background="@android:color/transparent"
+                        android:id="@+id/imageView1"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true" />
+                    />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1.11">
+                            <TextView
+                                android:layout_width="41dp"
+                                android:layout_height="wrap_content"
+                                android:text="SKIP"
+                                android:textColor="#838383"
+                                android:layout_marginTop="6dp"
+                                android:layout_gravity="center_vertical"
+                                android:background="@android:color/transparent"
+                                android:id="@+id/tv_skip"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true" />
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

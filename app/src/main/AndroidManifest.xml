@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.administrator.freda_app">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon_final"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity android:name=".MainActivity"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".Registration"
+            android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".Forgetpass"
+            android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".Home" />
+        <activity android:name=".Homeactivity" />
+        <activity android:name=".Collage" />
+        <activity android:name=".CustomeFrames" />
+        <activity android:name=".Blog" />
+        <activity android:name=".Gift_frame" />
+        <activity android:name=".Account" />
+        <activity android:name=".Contactus"
+            android:windowSoftInputMode="stateHidden"></activity>
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="27777f18737fe771b3fd07103d8cbdfb8e26253b" />
+    </application>
+
+</manifest>

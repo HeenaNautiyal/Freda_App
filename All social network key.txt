@@ -1,0 +1,29 @@
+Facebook App id:1830463137240574
+
+Twitter:
+TWITTER_KEY = "9s6tM2Jmld5xH5NjXmx6OJcsp";
+TWITTER_SECRET = "33jdmlKsIbjmuqokuPOqq4ZhSSdNQULZjJOXMB7wqVuwSh1uBn";
+
+Linkedin:
+Client ID:	8190lh2opecuqk
+Client Secret: 6hPczRhDw1ckixvV
+https://www.studytutorial.in/linkedin-integration-and-login-in-android-tutorial
+
+hashKey:
+QUallxzjjJ3zudKxE/wApqcD3nw=
+
+Instagram:
+ Client ID:           0f14f6346a8b4b058415f722e67e9e4d 
+Client Status 	Sandbox Mode 
+Client Secret:     ab4757e556f14311bbaef831d132cb09 
+
+google+:
+Create an OAuth 2.0 client ID : Android client 1
+ Client ID
+747181104366-ta353dl763s6q8hmqrqv1hto7ijs83eb.apps.googleusercontent.com
+{"installed":{"client_id":"747181104366-ta353dl763s6q8hmqrqv1hto7ijs83eb.apps.googleusercontent.com",
+"project_id":"artful-wind-145510",
+"auth_uri":"https://accounts.google.com/o/oauth2/auth",
+"token_uri":"https://accounts.google.com/o/oauth2/token",
+"auth_provider_x509_cert_url":"https://www.googleapis.com/oauth2/v1/certs",
+"redirect_uris":["urn:ietf:wg:oauth:2.0:oob","http://localhost"]}}
